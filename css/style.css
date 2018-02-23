@@ -35,6 +35,14 @@ ul {
 	font-weight: bold;
 }
 
+.dark {
+	padding: 15px;
+	background: #35424a;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 /* Header */
 header {
 	background: #35424a;
@@ -138,6 +146,20 @@ header a:hover {
 	width: 90px;
 }
 
+/* Sidebar */
+aside#sidebar {
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+/* Main-col */
+article#main-col {
+	float: left;
+	width: 65%;
+}
+
+/* Footer */
 footer {
 	padding: 20px;
 	margin-top: 20px;
